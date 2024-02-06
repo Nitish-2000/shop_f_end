@@ -13,6 +13,7 @@
   
   header {
     width: 100%;
+    height:20vh;
     background-color: var(--dark-blue);
     color: #fff;
   
@@ -197,7 +198,7 @@
           p {
             position: absolute;
             top: -1rem;
-            left: 5rem;
+            left: 3rem;
             font-weight: 500;
             color: #fff;
           }
