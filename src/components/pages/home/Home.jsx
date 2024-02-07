@@ -1,9 +1,16 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import Slider from '../../slider/Slider'
+import HomeInfoBox from './HomeInfoBox'
 
 function Home() {
   return (
-    <h1>React route working</h1>
+   <>
+    <Slider />
+    <section className='container'>
+       <HomeInfoBox />
+    </section>
+   </>
   )
 }
 
