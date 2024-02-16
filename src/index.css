@@ -8,3 +8,33 @@
 html {
     scroll-behavior:smooth;
 }
+
+.--flex-between{
+    display: flex;
+    /* width: 100vw; */
+    /* justify-content: center; */
+    /* justify-content:flex-end; */
+    justify-content: space-between;
+    
+    /* justify-content: end; */
+}
+
+.--fw-thin{
+    font-weight: 400;
+    /* justify-content: flex-start; */
+
+    
+}
+
+.--btn{
+    /* justify-content: flex-end; */
+    background-color:lightgray;
+    border: none;
+    border-radius: 20px;
+    width:150px
+ 
+}
+
+.--hr{
+    height:1px; background:gray;margin-bottom: 2px;
+}

@@ -25,7 +25,7 @@ import {
       text: "We sell products from only tested and proven brands.",
     },
     {
-      icon: <BsClockHistory size={30} color="#82fa9e" />,
+      icon: <BsClockHistory size={30} color="#82fa9e" />,      
       heading: "24/7 Support",
       text: "Get access to support from our exprt support team.",
     },
