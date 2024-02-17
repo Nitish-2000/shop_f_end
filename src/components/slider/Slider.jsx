@@ -59,7 +59,7 @@ function Slider() {
                   <hr />
                   <Button
                     style={{ background: "lightblack" }}
-                    onClick={"/shop"}
+                    onClick={()=>navigate("/shop")}
                   >
                     Shop Now
                   </Button>
