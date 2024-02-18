@@ -28,15 +28,24 @@ html {
 
 .--btn{
     /* justify-content: flex-end; */
-    background-color:lightgray;
+    background-color:#4681f4;
+    color: black;
     border: none;
     border-radius: 20px;
-    width:150px
- 
+    width:150px;
+    height:35px
+}
+
+--btn:hover{
+    background-color:blue;
 }
 
 .--btn-primary{
-    background-color:blue;
+    background-color:#008CBA;
+}
+
+.--btn-primary:hover{
+    background-color: blue;
 }
 
 .--hr{

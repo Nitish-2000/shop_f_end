@@ -4,6 +4,8 @@ import React from 'react'
 import Slider from '../../slider/Slider'
 import HomeInfoBox from './HomeInfoBox'
 import ProductCarousel from '../../carousel/ProductCarousel'
+import ProductCategory from './ProductCategory'
+import FooterLinks from '../../footer/FooterLinks'
 
 const PageHeading = ({heading,btnText})=>{
    return (
@@ -32,6 +34,17 @@ function Home() {
        <PageHeading heading={"Latest Products"} btnText={"shop Now>>"} />
         <ProductCarousel />
     </section>
+    <section className='--bg-grey'>
+      <div className='Container'>
+        <h3>Categories</h3>
+        <ProductCategory />
+      </div>
+    </section>
+    <section className='container'>
+       <PageHeading heading={"Mobile Phones"} btnText={"shop Now>>"} />
+        <ProductCarousel />
+    </section>
+    <FooterLinks />
    </>
   )
 }
