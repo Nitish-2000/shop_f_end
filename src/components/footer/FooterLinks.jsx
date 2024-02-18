@@ -3,9 +3,10 @@
 import React from 'react'
 import './FooterLinks.scss'
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-
+import Elogo from '../../assets/E-logo.png'
 
 function FooterLinks() {
+  
   return <>
     <section className='contact-section'>
       <div className='container contact'>
@@ -22,7 +23,7 @@ function FooterLinks() {
     <section className='footer-section'>
       <div className='container footer'>
         <div className='footer-logo'>
-          <img src="" alt="logo" />
+          <img src={Elogo} alt="logo" />
         </div>
         <div className='footer-menu'>
           <p className='link-heading'>
@@ -30,16 +31,16 @@ function FooterLinks() {
           </p>
           <ul className='nav-ul footer-links'>
             <li>
-              <a href="">Link Shortening</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Link Shortening</a>
             </li>
             <li>
-              <a href="">Branding Links</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Branding Links</a>
             </li>
             <li>
-              <a href="">Analyticals</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Analyticals</a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Blogs</a>
             </li>
           </ul>
         </div>
@@ -49,16 +50,16 @@ function FooterLinks() {
           </p>
           <ul className='nav-ul footer-links'>
             <li>
-              <a href="">Link Shortening</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Tools</a>
             </li>
             <li>
-              <a href="">Branding Links</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Websites</a>
             </li>
             <li>
-              <a href="">Analyticals</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Products</a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Services</a>
             </li>
           </ul>
         </div>
@@ -68,16 +69,16 @@ function FooterLinks() {
           </p>
           <ul className='nav-ul footer-links'>
             <li>
-              <a href="">Link Shortening</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Testimonials</a>
             </li>
             <li>
-              <a href="">Branding Links</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Oru Mission</a>
             </li>
             <li>
-              <a href="">Analyticals</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Our Vision</a>
             </li>
             <li>
-              <a href="">Blogs</a>
+              <a href="https://web-blogging.netlify.app/" target='blank'>Direct existing partners</a>
             </li>
           </ul>
         </div>
