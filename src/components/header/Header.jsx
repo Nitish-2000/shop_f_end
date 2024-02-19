@@ -21,6 +21,7 @@ const activeLink = ({ isActive }) => (isActive ? `${styles.active}` : "");
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
+
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
@@ -39,7 +40,7 @@ function Header() {
     </span>
   );
   return (
-    <header>
+    <header className={styles.fixed}>
       <div className={styles.header}>
         {logo}
         <nav
