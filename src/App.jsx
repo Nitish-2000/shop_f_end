@@ -1,5 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-import { useState } from 'react'
 
 import Home from './components/pages/home/Home'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -24,4 +22,3 @@ function App() {
 
 export default App
 
-// https://github.com/zinotrust/shopito-styles/blob/master/Header.module.scss
